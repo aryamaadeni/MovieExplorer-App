@@ -38,7 +38,7 @@ The API key is stored securely in a `Secrets.plist` file, which is protected by 
 1.  **Clone the repository:**
     ```bash
     git clone [https://github.com/YOUR_USERNAME/MovieExplorer-iOS-Challenge.git](https://github.com/YOUR_USERNAME/MovieExplorer-iOS-Challenge.git)
-    cd MovieExplorer-iOS-Challenge
+    cd MovieExplorer-App
     ```
 2.  **Create `Secrets.plist`:** To protect the API key, create a new `Property List` file named **`Secrets.plist`** in the project's root. Add a key `tmdb_read_access_token` and set its value to your API Read Access Token. This file is included in `.gitignore` to prevent it from being committed.
 3.  **Open the project:** Open the `MovieExplorer.xcodeproj` file in Xcode.
